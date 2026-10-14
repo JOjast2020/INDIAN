@@ -1,0 +1,6 @@
+{
+  "name": "BharatVyapar - GST Billing & Accounting Software",
+  "description": "Complete Indian Business Accounting, GST Invoicing, Inventory, P&L, and Financial Management ERP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

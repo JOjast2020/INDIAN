@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    border-color: var(--color-slate-200, #e2e8f0);
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  #printable-gst-invoice {
+    box-shadow: none !important;
+    border: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
